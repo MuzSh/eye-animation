@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #14495e;
+  background: #000000;
 }
 
 .eyes {
@@ -11,20 +11,23 @@ body {
   width: 100%;
   text-align: center;
 }
+
 .eye {
-  width: 240px;
-  height: 120px;
-  background: #fff;
+  width: 360px;
+  height: 180px;
+  background: rgb(211, 201, 201);
   display: inline-block;
-  margin: 40px;
-  border-radius: 50%;
+  margin: 125px;
+  border-radius: 100%;
+  border-style: dashed;
   position: relative;
   overflow: hidden;
+  border-color: orangered;
 }
 .ball {
   width: 80px;
   height: 80px;
-  background: rgb(255, 0, 0);
+  background: rgb(218, 10, 10);
   position: absolute;
   top: 50%;
   left: 50%;
