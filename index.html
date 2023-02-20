@@ -1,17 +1,60 @@
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="./styles.css">
-    </head>
-    <body>
-        <div class="eyes">
-            <div class="eye">
-                <div class="ball"></div>
-            </div>
-            <div class="eye">
-                <div class="ball"></div>
-            </div>
-            
+
+<head>
+    <!-- get size of web viewer -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Movement</title>
+</head>
+
+<body onload="main()">
+
+    <canvas id="stars" class="stars"></canvas>
+    <p id="message">Look Closely</p>
+    <p id="RotationInfo">Why Do Stars Oscillate?</p>
+    <p id="SpeedInfo">Speed: 0.01</p>
+    <!-- create button that will change rotation direction of the animation-->
+    <!-- <button id = "Direction"> Flip Rotation Direction </button> -->
+    <!-- import css -->
+    <link rel="stylesheet" type="text/css" href="./src/css/controls.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/eyes.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/body.css">
+    <!-- import js -->
+    <script src="./src/js/webgl-utils.js"></script>
+    <script src="./src/js/webgl-debug.js"></script>
+    <script src="./src/js/cuon-matrix.js"></script>
+    <script src="./src/js/cuon-utils.js"></script>
+    <script src="./src/js/graphics.js"></script>
+    <script src="./src/js/eyes.js"></script>
+    <script type="text/javascript" src="./src/js/userControls.js"></script>
+    <!-- create a list of controls for the operation -->
+    <!-- make a slider to change the controls -->
+    <div>
+        speed 1% <input id="Slider" type="range" min="1" max="100" , value="50">
+        100%
+    </div>
+    <div class="eyes">
+        <div class="eye">
+            <div class="ball"></div>
         </div>
-        <script src="./eyes.js"></script>
-    </body>
+        <!-- create a list of controls for the operation -->
+        <select id="Controls" size="5">
+            <option value="0"> Flip Rotation Direction </option>
+            <option value="1"> Increase Speed By 1%</option>
+            <option value="2"> Decrease By 1%</option>
+            <option value="3"> Reset Speed</option>
+            <option value="4"> Randomize Speed</option>
+            <!-- <option value = "5"> Randomize Colors</option> -->
+        </select>
+        <!-- second eye -->
+        <div class="eye">
+            <div id = "ball" class="ball"></div>
+    </div>
+
+    <script>
+        
+    </script>
+</body>
+
 </html>
