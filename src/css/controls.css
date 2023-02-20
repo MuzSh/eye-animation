@@ -1,0 +1,43 @@
+.stars {
+    position: absolute;
+    /* height: 100%; */
+    width: 100%;
+    z-index: -6;
+    background: black;
+    opacity: 27%;
+    z-index: -2;
+    pointer-events: auto;
+}
+
+#Controls {
+    z-index: -2;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    pointer-events: auto;
+    font-variant: small-caps;
+
+}
+
+#message, #RotationInfo, #SpeedInfo, #Slider{
+    color: white;
+    font-variant: small-caps;
+    /* font-weight: 700; */
+    font-size: xx-large;
+    /* opacity: 42%; */
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: max-content;
+    padding: 10px;
+    pointer-events: auto;
+
+}
+
+#Slider{
+    padding: 10px;
+    background-color: aquamarine;
+}

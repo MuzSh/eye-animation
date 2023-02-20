@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background: #000000; */
+  background-image: url('../img/space.jpg');
+  /* opacity: 9%; */
+  /* z-index: 1; */
+}
