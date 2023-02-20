@@ -9,8 +9,8 @@
 }
 
 .eye {
-    width: 360px;
-    height: 180px;
+    width: 180px;
+    height: 90px;
     background: rgb(211, 201, 201);
     display: inline-block;
     margin: 125px;
@@ -24,8 +24,8 @@
 }
 
 .ball {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     background: black;
     /* background: rgb(218, 10, 10); */
     position: absolute;
